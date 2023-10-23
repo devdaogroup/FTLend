@@ -257,7 +257,7 @@ To consume them, we implemented the hook [`useTokensLists`](./src/hooks/useToken
 
 filepath: `src/hooks/presentation/useAgaveMarketsData.tsx`
 
-React hook that can be used to get Agave markets information from an array of tokens addresses (reserve tokens addresses). The hook accepts an array of tokens addresses and returns data for each token as `marketData`, such as `priceData`, `reserveData`, `assetData`, and `incentiveData`. Additionally, the hook provides a number of functions that can be used to get data about a single market from the result, such as `getMarketSize`, `getTotalBorrowed`, `getDepositAPY`, `getBorrowRate`, and `getIncentiveRate`.
+React hook that can be used to get FTLENDmarkets information from an array of tokens addresses (reserve tokens addresses). The hook accepts an array of tokens addresses and returns data for each token as `marketData`, such as `priceData`, `reserveData`, `assetData`, and `incentiveData`. Additionally, the hook provides a number of functions that can be used to get data about a single market from the result, such as `getMarketSize`, `getTotalBorrowed`, `getDepositAPY`, `getBorrowRate`, and `getIncentiveRate`.
 
 ## Contributing
 

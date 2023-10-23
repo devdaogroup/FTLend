@@ -4,7 +4,7 @@
 import { darken } from 'polished'
 
 const error = '#db3333'
-const success = '#33dd33'
+const success = '#53A5D3'
 const primary = '#320E3B'
 const secondary = '#E56399'
 const tertiary = '#A6CFD5'

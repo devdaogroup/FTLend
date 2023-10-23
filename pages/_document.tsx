@@ -30,12 +30,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link href="/favicon/favicon.svg" rel="icon" type="image/svg+xml" />
-          <link href="/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
-          <link href="/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
-          <link href="/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+          <link href="/favicon/ft.svg" rel="icon" type="image/svg+xml" />
+          <link href="/favicon/128.png" rel="apple-touch-icon" sizes="180x180" />
+          <link href="/favicon/16.png" rel="icon" sizes="16x16" type="image/png" />
+          <link href="/favicon/32.png" rel="icon" sizes="32x32" type="image/png" />
           <link href="/favicon/site.webmanifest" rel="manifest" />
-          <link color="#333" href="/favicon/safari-pinned-tab.svg" rel="mask-icon" />
+          <link color="#333" href="/favicon/ft.svg" rel="mask-icon" />
           <meta content="#333" name="msapplication-TileColor" />
           <meta content="#333" name="theme-color"></meta>
           <link href="https://fonts.googleapis.com" rel="preconnect" />

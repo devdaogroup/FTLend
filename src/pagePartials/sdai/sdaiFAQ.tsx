@@ -46,7 +46,7 @@ export const sdaiFAQ = [
     content: (
       <p>
         Yes. sDAI is an ERC4626 token which is fully compatible with ERC20 standard. This makes it
-        perfect for defi integrations. You can currently use it here in Agave as collateral.
+        perfect for defi integrations. You can currently use it here in FTLENDas collateral.
       </p>
     ),
   },

@@ -15,7 +15,7 @@ export const StakeInformationCard: React.FC = withGenericSuspense(({ ...restProp
   return (
     <Rows {...restProps}>
       <Row>
-        <RowKey>Agave per month</RowKey>
+        <RowKey>FTLENDper month</RowKey>
         <RowValueBig>
           <Amount decimals={18} symbol="" value={yieldPerMonth} />
           &nbsp; (<Amount value={fromWei((agvePrice || ZERO_BN).mul(yieldPerMonth))} />)

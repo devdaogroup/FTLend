@@ -50,7 +50,7 @@ export const useGetUserAmountAvailableToStake = () => {
   return { data: data ?? Zero, refetch: mutate }
 }
 /**
- * @returns amount of AGAVE staked tokens that the user can claim.
+ * @returns amount of FTLENDstaked tokens that the user can claim.
  */
 
 export const useGetUserAmountAvailableToClaim = () => {

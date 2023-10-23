@@ -1,9 +1,9 @@
-# Agave Tokens
+# FTLENDTokens
 
 The dApp supports a fixed list of tokens and their derived ones.
 
 ## ERC20 Tokens
-The list of supported tokens can be found in [Agave Docs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7)
+The list of supported tokens can be found in [FTLENDDocs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7)
 These tokens receive the name of _reserve tokens_ in the dApp.
 
 ## Token Icons
@@ -13,7 +13,7 @@ Are stored in [`public/coins`](/public/coins)
 We use a JSON following the token standard specified by TokenLists.org. The file is located in [`public/reserveTokens.json`](/public/reserveTokens.json)
 
 ## Protocol Tokens
-Each one of the reserve tokens has a series of related tokens (the ones that can be found in [Agave Docs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7))
+Each one of the reserve tokens has a series of related tokens (the ones that can be found in [FTLENDDocs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7))
 These tokens receive the name of _protocol tokens_ in the dApp.
 The app keeps an updated mapping with that information at [`public/protocolTokens.json`](/public/protocolTokens.json)
 
@@ -57,5 +57,5 @@ By just removing the entry of the token from the [`public/reserveTokens.json`](/
 }
 ```
 
-Note 1: `strategy` and `oracle` were added to match the [Agave Docs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7) and are not currently used in the dApp.
+Note 1: `strategy` and `oracle` were added to match the [FTLENDDocs](https://agavedev.notion.site/Tokens-b8967cb6e8ca43d5b13c7fbabe39fcf7) and are not currently used in the dApp.
 Note 2: `symbol` is set to facilitate the cross-reference to the user, but it's not being used in the dApp.

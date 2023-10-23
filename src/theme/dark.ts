@@ -5,26 +5,26 @@ import { darken } from 'polished'
 
 const error = '#F4387C'
 const errorDark = darken(0.1, error)
-const success = '#33dd33'
+const success = '#226388'
 
-const primary = '#019D8B'
+const primary = '#226388'
 const primary10 = `${primary}1A`
 const primary30 = `${primary}4D`
-const primaryLight = '#40B390'
+const primaryLight = '#53A5D3'
 const primaryDarkened = darken(0.05, primary)
 
-const mainLight = '#92DE95'
+const mainLight = '#226388'
 
-const secondary = '#122C34'
+const secondary = '#0c2e42'
 const secondary20 = `${secondary}33`
 const secondary30 = `${secondary}4D`
 const secondary50 = `${secondary}80`
 
-const tertiary = '#BCF298'
+const tertiary = '#76c2ee'
 const tertiary0 = `${tertiary}00`
 const tertiary30 = `${tertiary}4d`
 
-const black = '#0D2026'
+const black = '#041e2c'
 const black05 = `${black}0D`
 const black20 = `${black}33`
 const black40 = `${black}66`
@@ -39,9 +39,9 @@ const darkGreenDarkened = darken(0.05, darkGreen)
 const darkGreen20 = `${darkGreen}33`
 const darkGreen50 = `${darkGreen}80`
 
-const mainDark1 = '#007F7C'
+const mainDark1 = '#226388'
 const mainDark3 = '#0B464F'
-const mainDark4 = '#0E3940'
+const mainDark4 = '#77c1ec'
 const mainDark440 = `${mainDark4}66`
 const mainDark450 = `${mainDark4}80`
 
@@ -59,7 +59,7 @@ const lighterGray = '#D1DDDC'
 
 const gray = '#97B1AB'
 
-const darkGray = '#0F3B3F'
+const darkGray = '#77c1ec'
 const darkishGray = '#647C77'
 const darkestGray = secondary
 const darkerGray = '#344B47'
@@ -71,7 +71,7 @@ const darkBackground0 = `rgba(${darkBackground}, 0)`
 const darkBackground02 = `rgba(${darkBackground}, 0.2)`
 const darkBackground04 = `rgba(${darkBackground}, 0.4)`
 const darkBackground06 = `rgba(${darkBackground}, 0.6)`
-const accent = '#9BEFD7'
+const accent = '#8cc3e3'
 
 const gradientLight = `linear-gradient(84.32deg, ${tertiary} 0%, ${primaryLight} 99.25%)`
 const mainBodyGradient = `radial-gradient(64.22% 34.97% at 0% 0%, ${tertiary30} 0%, ${tertiary0} 100%), linear-gradient(188.87deg, ${primary} 4.99%, ${secondary} 62.79%)`

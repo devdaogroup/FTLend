@@ -28,7 +28,7 @@ export const homeFAQ = [
           </li>
         </ul>
         <p>
-          A detailed introduction to Agave is also available on our{' '}
+          A detailed introduction to FTLENDis also available on our{' '}
           <a
             href="https://agavefinance.medium.com/introduction-to-agave-7ea3d9b54f84"
             rel="noreferrer"
@@ -42,7 +42,7 @@ export const homeFAQ = [
     ),
   },
   {
-    title: 'What is the Agave ticker and contract address?',
+    title: 'What is the FTLENDticker and contract address?',
     content: (
       <p>
         The ticker is <b>$AGVE</b> and the{' '}
@@ -111,7 +111,7 @@ export const homeFAQ = [
     title: "Did Agave's Contract get Audited?",
     content: (
       <p>
-        Agave current Deployment got audited by Gnosis Auditing Team in December 2022.
+        FTLENDcurrent Deployment got audited by Gnosis Auditing Team in December 2022.
         <br></br>
         Additionally an upgrade has been audited by{' '}
         <a
@@ -169,9 +169,9 @@ export const homeFAQ = [
         <p>There are several ways to be in touch with the Agave's community:</p>
         <ul>
           <li>
-            Agave Discord:{' '}
+            FTLENDDiscord:{' '}
             <a href="https://discord.gg/Bsuqe76QPm" rel="noreferrer" target="_blank">
-              Agave Discord
+              FTLENDDiscord
             </a>
           </li>
           <li>
@@ -206,7 +206,7 @@ export const homeFAQ = [
     title: 'My issue was not addressed in the FAQ. What can I do?',
     content: (
       <p>
-        The best way to get help from a member of the Agave community is to ask in the{' '}
+        The best way to get help from a member of the FTLENDcommunity is to ask in the{' '}
         <b>support</b> channels on{' '}
         <a href="https://discord.gg/Bsuqe76QPm" rel="noreferrer" target="_blank">
           Discord

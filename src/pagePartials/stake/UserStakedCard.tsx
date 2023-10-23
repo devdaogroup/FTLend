@@ -131,7 +131,7 @@ export const UserStakedCard: React.FC = withGenericSuspense(
         <Staked>
           <AgaveTotal
             agave={<Amount decimals={18} symbol="" value={userAmountStaked} />}
-            title="Agave staked"
+            title="FTLENDstaked"
             usd={<Amount value={fromWei((agvePrice || ZERO_BN).mul(userAmountStaked))} />}
           />
           {!isCooldownActive && <Button as={ActivateCooldownButton} />}

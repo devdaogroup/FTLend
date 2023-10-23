@@ -81,17 +81,17 @@ export const SocialLinks: React.FC = (props) => {
     {
       href: 'https://t.me/Agave1Hive',
       icon: <Telegram />,
-      title: 'Agave Telegram',
+      title: 'FTLENDTelegram',
     },
     {
       href: 'https://discord.gg/Bsuqe76QPm',
       icon: <Discord />,
-      title: 'Agave Discord',
+      title: 'FTLENDDiscord',
     },
     {
       href: 'https://twitter.com/Agave_lending',
       icon: <Twitter />,
-      title: 'Agave Twitter',
+      title: 'FTLENDTwitter',
     },
   ]
 
