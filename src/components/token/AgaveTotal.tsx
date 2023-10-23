@@ -24,7 +24,7 @@ const Values = styled.div`
   justify-content: space-between;
 `
 
-const FTLEND= styled.div`
+const FTMLend= styled.div`
   align-items: center;
   color: ${({ theme: { colors } }) => colors.textColor};
   column-gap: 8px;

@@ -69,7 +69,7 @@ describe('AgaveTokens', () => {
     expect(allIncentivesTokens).toEqual([
       {
         address: '0x0000000000000000000000000000000000000011',
-        name: 'FTLENDinterest bearing TT1',
+        name: 'FTMLendinterest bearing TT1',
         symbol: 'agTT1',
         decimals: 18,
         chainId: 100,
@@ -82,7 +82,7 @@ describe('AgaveTokens', () => {
       },
       {
         address: '0x0000000000000000000000000000000000000012',
-        name: 'FTLENDvariable debt bearing TT1',
+        name: 'FTMLendvariable debt bearing TT1',
         symbol: 'variableDebtTT1',
         decimals: 18,
         chainId: 100,
@@ -95,7 +95,7 @@ describe('AgaveTokens', () => {
       },
       {
         address: '0x0000000000000000000000000000000000000021',
-        name: 'FTLENDinterest bearing TT2',
+        name: 'FTMLendinterest bearing TT2',
         symbol: 'agTT2',
         decimals: 18,
         chainId: 100,
@@ -108,7 +108,7 @@ describe('AgaveTokens', () => {
       },
       {
         address: '0x0000000000000000000000000000000000000022',
-        name: 'FTLENDvariable debt bearing TT2',
+        name: 'FTMLendvariable debt bearing TT2',
         symbol: 'variableDebtTT2',
         decimals: 18,
         chainId: 100,
@@ -254,7 +254,7 @@ describe('AgaveTokens', () => {
 
     expect(agTokenInfo).toEqual({
       address: `0x0000000000000000000000000000000000000011`,
-      name: `FTLENDinterest bearing TT1`,
+      name: `FTMLendinterest bearing TT1`,
       symbol: `agTT1`,
       decimals: 18,
       chainId: 100,

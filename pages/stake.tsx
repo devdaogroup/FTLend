@@ -83,7 +83,7 @@ const Stake: NextPage = () => {
         </Button>
       </Title>
       <Paragraph>
-        Staking FTLENDhelps to secure the protocol's governance by incentivizing participants with
+        Staking FTMLendhelps to secure the protocol's governance by incentivizing participants with
         protocol rewards.
       </Paragraph>
       <MandatoryConnection>
